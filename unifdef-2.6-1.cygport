@@ -1,0 +1,11 @@
+
+HOMEPAGE="http://dotat.at/prog/unifdef/"
+SRC_URI="http://dotat.at/prog/unifdef/${P}.tar.gz"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake
+}
+
+USE_DESTDIR=no

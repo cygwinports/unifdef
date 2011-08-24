@@ -1,0 +1,7 @@
+category: Devel
+requires: bash coreutils gcc4 sed
+sdesc: "selectively remove C preprocessor conditionals"
+ldesc: "The unifdef utility selectively processes conditional C 
+preprocessor #if and #ifdef directives. It removes from a file both the 
+directives and the additional text that they delimit, while otherwise 
+leaving the file alone."
